@@ -1,3 +1,3 @@
-var myModule = require('./myModule.js')
+var _ = require('lodash')
 
-console.log(myModule.text)
+console.log(_.random(1,100))
