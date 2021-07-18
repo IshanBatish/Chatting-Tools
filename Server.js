@@ -9,8 +9,8 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: false}))
 
 var messages = [
-    {name: 'Tim', message: 'Hi'},
-    {name: 'Jane', message: 'Hello'}
+    {name: 'Ishan', message: 'Hi, There'},
+    {name: 'Rahul', message: 'Hello Ishan'}
 ]
 
 app.get('/messages', (req, res) =>{
